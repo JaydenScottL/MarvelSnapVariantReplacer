@@ -28,7 +28,7 @@ namespace MarvelSnapVariantReplacer
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    //Console.WriteLine(ex.Message);
                     Thread.Sleep(1000);
                     continue;
                 }
