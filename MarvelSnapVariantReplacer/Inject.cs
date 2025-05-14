@@ -25,10 +25,12 @@ namespace MarvelSnapVariantReplacer
                 try
                 {
                     RemoteHooking.Inject(Process.GetProcessesByName("SNAP")[0].Id, InjectionOptions.DoNotRequireStrongName, path, path, Directory.GetCurrentDirectory());
+                    Console.WriteLine("Snap process found. (You can close this window)");
                 }
                 catch (Exception ex)
                 {
-                    //Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("(Is the game running?)");
                     Thread.Sleep(1000);
                     continue;
                 }

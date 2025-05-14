@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B043DB4A-B268-49EA-98C5-75D45F83F8F1}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>MarvelSnapVariantReplacer</RootNamespace>
     <AssemblyName>MarvelSnapVariantReplacer</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
